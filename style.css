@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #ffd600;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 144px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+span {
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: black;
+}
+
+#logo {
+  width: 95px;
+  height: 86px;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  padding: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+li a:hover {
+  cursor: pointer;
+  color: #ffd600;
+}
+
+button {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 9px 25px;
+  background-color: #ffd600;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #ffd500be;
+}
+
+#welcome-section {
+  padding-left: 120px;
+  text-align: left;
+  margin-top: 15em;
+}
+
+#welcome-section h1 {
+  font-size: 96px;
+}
+
+#projects {
+  margin-top: 25vh;
+}
+
+#projects h1 {
+  text-align: center;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+.project-tile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-left: 203px;
+  padding-right: 203px;
+}
+
+.project {
+  margin: 2em;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.project:hover {
+  box-shadow: 22px 24px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.project-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border: 5px solid black;
+}
+
+.project-capt {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+#contact a:hover {
+  font-size: 40px;
+  text-decoration: underline;
+}
